@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="stocks.css">
+
+    <title>JavaShares - A Lightweight Portfolio Client</title>
+  </head>
+  <body>
+    <div class="top-img">
+      <img class="logoImg" src="javashares.png" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color">
+
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <form class="my-2 my-lg-0 d-flex w-100" onsubmit="return false;">
+          <div class="input-group">
+            <input id="search" autofocus class="form-control mr-sm-2" type="search" placeholder="Search for stocks by symbol...">
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container" id="everything">
+      <div class="card text-left" id="buyChunk">
+        <div class="card-header" id="headerBuy">
+          Stock Listing:
+        </div>
+        <div class="card-body">
+
+          <div id="entries">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card text-left" id="sellChunk">
+        <div class="card-header" id="headerSell">
+          Portfolio Value:
+        </div>
+        <div class="card-body">
+          <div class="sortBtns">
+            <button type="button" class="btn btn-warning sorts" id="symbolSort">Sort By Symbol ^</button>
+            <button type="button" class="btn btn-warning sorts" id="shareSort">Sort By Shares ^</button>
+            <button type="button" class="btn btn-warning sorts" id="valSort">Sort By Value ^</button>
+          </div>
+
+          <div id="entriesOwned">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="stocks.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+html {
+  font-family: "Avenir";
+}
+
+.navbar-dark {
+  margin-top: -75px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  left: 10%;
+  max-width: 80%;
+}
+
+.logoImg {
+  max-width: 35%;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+
+nav {
+  background-color: black;
+  border-radius: 12px;
+}
+
+body {
+  background-attachment: fixed;
+  background-size:auto;
+}
+
+.container {
+  width: 90%;
+  left: 5%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sorts {
+  background-color: white;
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 12px;
+}
+
+.sortBtns {
+  padding-left: 15%;
+  margin-top: -10px;
+}
+
+#sellChunk{
+  left:51%;
+}
+
+#headerBuy{
+  background-color:black;
+}
+
+#headerSell{
+  background-color:blue;
+}
+
+.card {
+  position: absolute;
+  margin-top: 5%;
+  z-index: 1;
+  width: 50%;
+  opacity: .95;
+  flex: 1;
+}
+
+.card-header{
+  color: white;
+  background-color: #333;
+  font-size: 18px;
+  width: 100%;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.col p {
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Avenir";
+}
+
+
+@media (max-width: 1050px){
+
+  .card {
+    left:0;
+    width:95%;
+    margin-top:25px;}
+
+  #sellChunk{
+    left:10%;
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .navbar-dark {
+    margin-top: -20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 2px;
+    padding-top: 10px;
+    left: 5%;
+    max-width: 75%;
+  }
+
+  .card {
+    left:0;
+    width:95%;
+    margin-top:25px;}
+
+  #sellChunk{
+    margin-left:-50px;
+    margin-top: 200px;
+  }
+}
+
+
+@media (max-width: 768px){
+
+  .navbar-dark {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 2px;
+    padding-top: 2px;
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .card {
+    left:0;
+    width:95%;
+    margin-top:25px;}
+
+  #buyChunk{
+    left: 3%;
+  }
+
+  #sellChunk{
+    left:0%;
+    margin-top: 0px;
+  }
+
+  .sortBtns {
+    padding-left: 20%;
+    margin-top: -10px;
+  }
+}
+
+
+
+@media (max-width: 425px){
+
+  .navbar-dark {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    left: 5%;
+    max-width: 90%;
+  }
+
+    .logoImg {
+      max-width: 60%;
+      margin-left: 17%;
+      margin-top: -10%;
+    }
+
+    #buyChunk{
+      left: 0%;
+    }
+
+    #sellChunk{
+      margin-left: -35px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    .sortBtns {
+      padding-left: 5%;
+      margin-top: -10px;
+    }
+
+    .sorts {
+      max-width: 100px;
+    }
+  }
+
+@media (max-width: 376px){
+  .sorts {
+    max-width: 80px;
+    padding:0;
+  }
+  .sortBtns {
+    padding-left: 8%;
+    margin-top: -10px;
+  }
+
+  .container {
+    left:0;
+    width:100%;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .card {
+    left:10%;
+    width:95%;
+    margin-top:25px;
+}
+
+@media (max-width: 800px){
+
+  .card {
+    left:7%;
+    width:95%;
+    margin-top:25px;}
+
+  #sellChunk{
+    left:10%;
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 578px){
+
+  .card {
+    left:0;
+    width:100%;
+    margin-top:25px;}
+
+}
+
+@media (max-width: 700px){
+  .poster{
+    float:none;
+    max-width: 250px;
+    margin-right:0;}
+
+}
