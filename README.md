@@ -1,10 +1,7 @@
-# mpscs52553-fp
+# Stock Portfolio 
 
-WEB DEVELOPMENT FINAL PROJECT - STOCK PORTFOLIO
+DESCRIPTION: 
+Basic stock portfolio tracker. Stock data sourced from IEX (https://iextrading.com/developer/docs/). Dynamic functionality implemented in plain JavaScript. Utilizes HTML's lightweight local storage feature to persist data across sessions. 
 
-Directions: Open shares.html to view application. 
-
-BUG REPORT - 3/12/19:
-1. Sorting functionality works in general cases, but I was not able to sort items that were loaded from LocalStorage. 
-
-
+KNOWN BUGS:
+- Stocks loaded from local storage don't sort properly with stocks added in current session. 
